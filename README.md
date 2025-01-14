@@ -1,7 +1,6 @@
 
-**Here’s a suitable README.md for your chatbot project:**
+**CDP Support Agent Chatbot**
 
-CDP Support Agent Chatbot
 A support chatbot designed to answer "how-to" questions related to four Customer Data Platforms (CDPs): Segment, mParticle, Lytics, and Zeotap. The chatbot extracts relevant information from the official documentation of these CDPs to guide users in performing specific tasks or achieving desired outcomes.
 
 **Table of Contents**
@@ -15,7 +14,7 @@ Contributors
 License
 
 
-Features
+**Features**
 Answer "How-to" Questions
 The chatbot provides step-by-step guidance on tasks related to Segment, mParticle, Lytics, and Zeotap.
 Example:
@@ -25,7 +24,7 @@ Example:
 Dynamic Documentation Fetching
 Retrieves and processes content directly from the official documentation for accurate responses.
 
-**Cross-CDP Comparisons (Bonus Feature)**
+Cross-CDP Comparisons (Bonus Feature)
 Compares functionalities or approaches between platforms.
 Example:
 
@@ -47,6 +46,8 @@ CORS: For handling cross-origin requests.
 
 
 **Installation**
+
+
 1. Clone the Repository
 bash
 Copy code
@@ -83,50 +84,54 @@ cd client
 npm start
 The app will be available at http://localhost:3000.
 
-**Usage**
+Usage
 Open the chatbot interface in your browser.
 Select a platform (Segment, mParticle, Lytics, or Zeotap).
 Enter your "how-to" question and submit.
 View the response fetched from the corresponding platform's documentation.
 
 
-
 **File Structure**
-
-
 bash
 Copy code
 chatbot-cdp/
-server/
-controllers/
-chatbotController.js  # Backend logic for handling queries
-routes/
-chatbotRoutes.js      # API routes
-server.js                 # Express server setup
-.env                      # Environment variables
-client/
-src/
-components/
-Chatbot.jsx       # React component for chatbot UI
-App.js                # Main React application
-public/
-package.json              # React app configuration
-README.md                     # Project documentation
-package.json                  # Backend configuration
+├── server/
+│   ├── controllers/
+│   │   └── chatbotController.js  # Backend logic for handling queries
+
+│   ├── routes/
+│   │   └── chatbotRoutes.js      # API routes
+
+│   ├── server.js                 # Express server setup
+│   └── .env                      # Environment variables
 
 
+├── client/
+│   ├── src/
+│   │   ├── components/
 
-**Enhancements
-Planned Features:**
+│   │   │   └── Chatbot.jsx       # React component for chatbot UI
+│   │   └── App.js                # Main React application
+
+│   ├── public/
+│   └── package.json              # React app configuration
+
+
+├── README.md                     # Project documentation
+└── package.json                  # Backend configuration
+
+
+**Enhancements**
+
+Planned Features:
 Automated Documentation Scraping: Regularly update documentation indices.
 Enhanced NLP Integration: Use advanced models (e.g., OpenAI GPT-4) for better query understanding.
 User Authentication: Allow users to save their queries and responses.
 Deployment: Host on cloud platforms (e.g., Heroku, Netlify).
-Contributors
-Your Name (Developer)
-Email: your.email@example.com
-GitHub: YourGitHubHandle
-Feel free to reach out for collaboration or feedback!
 
-**License**
-This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contributors
+RAJAKUMAR S(Developer)
+Email: 727822tuec144@skct.edu.in
+
+
