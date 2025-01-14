@@ -97,22 +97,22 @@ View the response fetched from the corresponding platform's documentation.
 bash
 Copy code
 chatbot-cdp/
-├── server/
-│   ├── controllers/
-│   │   └── chatbotController.js  # Backend logic for handling queries
-│   ├── routes/
-│   │   └── chatbotRoutes.js      # API routes
-│   ├── server.js                 # Express server setup
-│   └── .env                      # Environment variables
-├── client/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── Chatbot.jsx       # React component for chatbot UI
-│   │   └── App.js                # Main React application
-│   ├── public/
-│   └── package.json              # React app configuration
-├── README.md                     # Project documentation
-└── package.json                  # Backend configuration
+server/
+controllers/
+chatbotController.js  # Backend logic for handling queries
+routes/
+chatbotRoutes.js      # API routes
+server.js                 # Express server setup
+.env                      # Environment variables
+client/
+src/
+components/
+Chatbot.jsx       # React component for chatbot UI
+App.js                # Main React application
+public/
+package.json              # React app configuration
+README.md                     # Project documentation
+package.json                  # Backend configuration
 
 
 
